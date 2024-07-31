@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Casa de los Simpson"/>
+
+    <TextView
+        android:id="@+id/text_view_address"
+        android:maxWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:maxLines="3"
+        android:textAlignment="center"
+        android:breakStrategy="balanced"
+        tools:text="Avenida siempreviva 123"/>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
